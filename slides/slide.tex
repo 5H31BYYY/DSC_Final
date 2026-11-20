@@ -15,12 +15,12 @@
 \usetikzlibrary{arrows.meta,positioning,calc}
 \usepackage{qrcode}
 \usepackage{graphicx}
-\graphicspath{{figures/}}
+\graphicspath{{../figures/}}
 \usefonttheme{professionalfonts}
 \usepackage{mathpazo}
 
 % ---------- EDIT THESE ----------
-\newcommand{\appurl}{https://YOUR-APP-NAME.streamlit.app}   % your deployed Streamlit link
+\newcommand{\appurl}{https://delitimeprediction.streamlit.app}   % your deployed Streamlit link
 \newcommand{\presenter}{Sovannvatanak PHAUT}
 % --------------------------------
 
@@ -61,8 +61,8 @@
       \navtab{2}{s-data}{Data}%
       \navtab{3}{s-model}{Model}%
       \navtab{4}{s-results}{Results}%
-      \navtab{5}{s-demo}{Live Demo}%
-      \navtab{6}{s-wrap}{Wrap-up}}%
+      \navtab{5}{s-wrap}{Wrap-up}%
+      \navtab{6}{s-demo}{Live Demo}}%
   \vfil}\hfil}}
 
 \setbeamertemplate{footline}{%
@@ -109,14 +109,14 @@
     \begin{center}
     {\large\presenter\par}
     {\color{grey}AUPP Data Science Club, Final Project\par}
-    {\color{grey}13 November 2026\par}
+    {\color{grey}20 November 2026\par}
     {\color{grey}\LaTeX\par}
     \end{center}
     \vspace{0.1cm}
     \hyperlink{s-problem}{\beamergotobutton{Start}}
   \end{minipage}
 \end{frame}
-
+ 
 % =============== 1 PROBLEM ===============
 \section{Problem}
 \begin{frame}[label=s-problem]{Why predict delivery time?}
@@ -146,13 +146,13 @@
     \hyperlink{s-results}{\beamergotobutton{Results}}\ 
     \hyperlink{s-demo}{\beamergotobutton{Live demo}}
 \end{frame}
-
+ 
 % =============== 2 DATA ===============
 \section{Data}
 \begin{frame}[label=s-data]{The data: Zomato food delivery orders}
   \begin{itemize}
     \setlength\itemsep{0.45em}
-    \item Kaggle: Zomato food delivery dataset. Each row is one order: route, weather, traffic, vehicle and courier
+    \item Kaggle: Zomato food delivery dataset.
     \item Delivery times range from \textbf{10 to 54 minutes}
     \item The data comes from Indian cities
   \end{itemize}
@@ -168,7 +168,7 @@
   \end{tikzpicture}
   \vfill
 \end{frame}
-
+ 
 \begin{frame}[label=s-clean]{Cleaning: what we fixed and why}
   \small\renewcommand{\arraystretch}{1.08}
   \begin{tabular}{@{}p{0.36\textwidth}p{0.6\textwidth}@{}}
@@ -184,7 +184,7 @@
     \bottomrule
   \end{tabular}
 \end{frame}
-
+ 
 \begin{frame}[label=s-eda]{What the data shows}
   \centering
   \includegraphics[width=0.97\textwidth]{eda_overview.png}\par
@@ -195,7 +195,7 @@
     \begin{column}{0.32\textwidth}\small\textbf{Distance alone is weak.} Times vary widely at every distance, so we need several features together.\end{column}
   \end{columns}
 \end{frame}
-
+ 
 % =============== 3 MODEL ===============
 \section{Model}
 \begin{frame}[label=s-model]{How the model was built}
@@ -222,7 +222,7 @@
   \end{tikzpicture}\par
   \footnotesize\color{grey}The gap between Ridge and the tree models shows the relationships are not linear.
 \end{frame}
-
+ 
 % =============== 4 RESULTS ===============
 \section{Results}
 \begin{frame}[label=s-results]{Results on 8,978 orders the model never saw}
@@ -243,7 +243,7 @@
   \vfill
   \footnotesize\hyperlink{s-errors}{\beamergotobutton{Where do the errors fall?}}
 \end{frame}
-
+ 
 \begin{frame}[label=s-errors]{Where the errors fall}
   \centering
   \includegraphics[width=0.78\textwidth]{model_eval.png}\par
@@ -251,7 +251,7 @@
   {\small Left: predicted vs actual (red line = perfect). Right: errors are centred on 0 and mostly within $\pm$5 min.}\par
   \small\color{grey}Very fast and very slow orders are pulled toward the average.
 \end{frame}
-
+ 
 \begin{frame}[label=s-drivers]{What drives delivery time}
   \begin{columns}[c]
     \begin{column}{0.5\textwidth}
@@ -269,32 +269,8 @@
     \end{column}
   \end{columns}
 \end{frame}
-
-% =============== 5 DEMO ===============
-\section{Live Demo}
-\begin{frame}[label=s-demo]{Try it live}
-  \begin{columns}[c]
-    \begin{column}{0.4\textwidth}
-      \centering
-      \qrcode[height=3.6cm]{\appurl}\par
-      \vspace{0.15cm}
-      {\scriptsize\href{\appurl}{\color{teal}\underline{\appurl}}}
-    \end{column}
-    \begin{column}{0.56\textwidth}
-      {\bfseries Three things to try}
-      \begin{enumerate}
-        \setlength\itemsep{0.55em}
-        \item Press \textbf{Quiet sunny day}, then \textbf{Rush hour in a storm}, and watch the estimate move
-        \item Open \textbf{What changes the time} to see one input at a time
-        \item Save two orders and \textbf{compare} them side by side
-      \end{enumerate}
-      \vspace{0.2cm}
-      \hyperlink{demo-backup}{\beamergotobutton{Backup screenshot}}
-    \end{column}
-  \end{columns}
-\end{frame}
-
-% =============== 6 WRAP-UP ===============
+ 
+% =============== 5 WRAP-UP (slide 10) ===============
 \section{Wrap-up}
 \begin{frame}[label=s-wrap]{Takeaways and limits}
   \begin{columns}[T]
@@ -319,22 +295,43 @@
     \end{column}
   \end{columns}
 \end{frame}
-
-% =============== CLOSING ===============
+ 
+% =============== 6 LIVE DEMO (Thank you, Try it live, Backup) ===============
+\section{Live Demo}
 \begin{frame}[label=s-thanks]{Thank you!}
-  \vspace{0.6cm}
-  \centering
-  {\Large Try the app:\par}
-  \vspace{0.3cm}
-  {\large\href{\appurl}{\color{teal}\underline{\appurl}}\par}
+  \begin{columns}[c]
+    \begin{column}{0.4\textwidth}
+      \centering
+      \qrcode[height=4cm]{\appurl}\par
+    \end{column}
+    \begin{column}{0.56\textwidth}
+      {\Large\bfseries Try the app yourself\par}
+      \vspace{0.3cm}
+      Scan the QR code\par
+%      \vspace{0.2cm}
+%      {\large\href{\appurl}{\color{teal}\underline{\appurl}}\par}
+    \end{column}
+  \end{columns}
 \end{frame}
-
+ 
+\begin{frame}[label=s-demo]{Try it live}
+  \noindent{\large\bfseries Three things to try}\par
+  \begin{enumerate}
+    \setlength\itemsep{0.8em}
+    \item Press \textbf{Quiet sunny day}, then \textbf{Rush hour in a storm}, and watch the estimate move
+    \item Open \textbf{What changes the time} to see one input at a time
+    \item Save two orders and \textbf{compare} them side by side
+  \end{enumerate}
+  \vspace{0.4cm}
+  \hyperlink{demo-backup}{\beamergotobutton{Backup screenshot}}
+\end{frame}
+ 
 \appendix
-
+ 
 \begin{frame}[label=demo-backup]{Backup: the app}
   \centering
-  \IfFileExists{figures/app_screenshot.png}{%
-    \includegraphics[height=0.72\textheight]{app_screenshot.png}}{%
+\IfFileExists{../figures/app_screenshot.png}{%
+  \includegraphics[height=0.72\textheight]{../figures/app_screenshot.png}}{%
     \fbox{\parbox{0.7\textwidth}{\centering\vspace{1cm}Save a screenshot of your app as\\\texttt{figures/app\_screenshot.png}\vspace{1cm}}}}
   \vfill
   \hyperlink{s-demo}{\beamerreturnbutton{Back to demo}}

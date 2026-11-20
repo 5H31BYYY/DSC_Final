@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2025.12.25)  11 NOV 2026 17:32
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2025.12.25)  20 NOV 2026 14:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1060,8 +1060,8 @@ Requested font "[TeXGyrePagellaX-Regular.otf]/OT:script=latn;language=dflt;-ss0
 lar.otf
 
 (./slide.aux
-<Reading QR code for "https://YOUR-APP-NAME.streamlit.app" at level 3-M from au
-x file.>
+<Reading QR code for "https://delitimeprediction.streamlit.app" at level 3-M fr
+om aux file.>
 )
 \openout1 = `slide.aux'.
 
@@ -1442,8 +1442,8 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 [4
 
 ]
-File: figures//eda_overview.png Graphic file (type bmp)
-<figures//eda_overview.png>
+File: ../figures//eda_overview.png Graphic file (type bmp)
+<../figures//eda_overview.png>
 
 Underfull \hbox (badness 10000) has occurred while \output is active
  []
@@ -1471,8 +1471,8 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 [7
 
 ]
-File: figures//model_eval.png Graphic file (type bmp)
-<figures//model_eval.png>
+File: ../figures//model_eval.png Graphic file (type bmp)
+<../figures//model_eval.png>
 
 Underfull \hbox (badness 10000) has occurred while \output is active
  []
@@ -1481,8 +1481,8 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 [8
 
 ]
-File: figures//feature_importance.png Graphic file (type bmp)
-<figures//feature_importance.png>
+File: ../figures//feature_importance.png Graphic file (type bmp)
+<../figures//feature_importance.png>
 
 Underfull \hbox (badness 10000) has occurred while \output is active
  []
@@ -1491,30 +1491,9 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 [9
 
 ]
+Overfull \vbox (1.0217pt too high) detected at line 297
+ []
 
-
-<QR code requested for "https://YOUR-APP-NAME.streamlit.app" in version 0-M.>
-
-<Copying the QR code for "https://YOUR-APP-NAME.streamlit.app" in version 3-M a
-s previously calculated.>
-Requested font "pplr7t" at 5.0pt
- -> c:/texlive/2023/texmf-dist/fonts/tfm/adobe/palatino/pplr7t.tfm
-Requested font "zplmr7m" at 5.0pt
- -> c:/texlive/2023/texmf-dist/fonts/tfm/public/mathpazo/zplmr7m.tfm
-Requested font "zplmr7y" at 5.0pt
- -> c:/texlive/2023/texmf-dist/fonts/tfm/public/mathpazo/zplmr7y.tfm
-Requested font "zplmr7v" at 5.0pt
- -> c:/texlive/2023/texmf-dist/fonts/tfm/public/mathpazo/zplmr7v.tfm
-LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 5.21004pt on input line 295.
-Requested font "msam10" at 5.21004pt
- -> c:/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
-LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 5.21004pt on input line 295.
-Requested font "msbm10" at 5.21004pt
- -> c:/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
-Requested font "zplmr7t" at 5.0pt
- -> c:/texlive/2023/texmf-dist/fonts/tfm/public/mathpazo/zplmr7t.tfm
 
 Underfull \hbox (badness 10000) has occurred while \output is active
  []
@@ -1523,9 +1502,13 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 [10
 
 ]
-Overfull \vbox (1.0217pt too high) detected at line 321
- []
 
+
+<QR code requested for "https://delitimeprediction.streamlit.app" in version 0-
+M.>
+
+<Copying the QR code for "https://delitimeprediction.streamlit.app" in version 
+3-M as previously calculated.>
 
 Underfull \hbox (badness 10000) has occurred while \output is active
  []
@@ -1534,42 +1517,12 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 [11
 
 ]
-Requested font "pplr7t" at 14.4pt
- -> c:/texlive/2023/texmf-dist/fonts/tfm/adobe/palatino/pplr7t.tfm
-Requested font "pplr7t" at 10.0pt
- -> c:/texlive/2023/texmf-dist/fonts/tfm/adobe/palatino/pplr7t.tfm
-Requested font "zplmr7m" at 14.4pt
- -> c:/texlive/2023/texmf-dist/fonts/tfm/public/mathpazo/zplmr7m.tfm
-Requested font "zplmr7m" at 10.0pt
- -> c:/texlive/2023/texmf-dist/fonts/tfm/public/mathpazo/zplmr7m.tfm
-Requested font "zplmr7y" at 14.4pt
- -> c:/texlive/2023/texmf-dist/fonts/tfm/public/mathpazo/zplmr7y.tfm
-Requested font "zplmr7y" at 10.0pt
- -> c:/texlive/2023/texmf-dist/fonts/tfm/public/mathpazo/zplmr7y.tfm
-Requested font "zplmr7v" at 14.4pt
- -> c:/texlive/2023/texmf-dist/fonts/tfm/public/mathpazo/zplmr7v.tfm
-Requested font "zplmr7v" at 10.0pt
- -> c:/texlive/2023/texmf-dist/fonts/tfm/public/mathpazo/zplmr7v.tfm
-LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 15.0049pt on input line 330.
-Requested font "msam10" at 15.0049pt
- -> c:/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
-LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 10.42007pt on input line 330.
-Requested font "msam10" at 10.42007pt
- -> c:/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
-LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 15.0049pt on input line 330.
-Requested font "msbm10" at 15.0049pt
- -> c:/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
-LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 10.42007pt on input line 330.
-Requested font "msbm10" at 10.42007pt
- -> c:/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
-Requested font "zplmr7t" at 14.4pt
- -> c:/texlive/2023/texmf-dist/fonts/tfm/public/mathpazo/zplmr7t.tfm
-Requested font "zplmr7t" at 10.0pt
- -> c:/texlive/2023/texmf-dist/fonts/tfm/public/mathpazo/zplmr7t.tfm
+LaTeX Font Info:    Font shape `TU/TeXGyrePagellaX(0)/b/n' will be
+(Font)              scaled to size 14.4pt on input line 327.
+Requested font "[TeXGyrePagellaX-Bold.otf]/OT:script=latn;language=dflt;-ss05;+
+tnum;+lnum;mapping=tex-text;" at 14.4pt
+ -> c:/texlive/2023/texmf-dist/fonts/opentype/public/newpx/TeXGyrePagellaX-Bold
+.otf
 
 Underfull \hbox (badness 10000) has occurred while \output is active
  []
@@ -1580,10 +1533,10 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 ]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\translate ' on input line 333.
+(hyperref)                removing `\translate ' on input line 330.
 
-File: figures//app_screenshot.png Graphic file (type bmp)
-<figures//app_screenshot.png>
+File: ../figures/app_screenshot.png Graphic file (type bmp)
+<../figures/app_screenshot.png>
 
 Underfull \hbox (badness 10000) has occurred while \output is active
  []
@@ -1602,18 +1555,18 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 \openout8 = `slide.snm'.
 
  (./slide.aux
-<Reading QR code for "https://YOUR-APP-NAME.streamlit.app" at level 3-M from au
-x file.>
+<Reading QR code for "https://delitimeprediction.streamlit.app" at level 3-M fr
+om aux file.>
 )
 Package rerunfilecheck Info: File `slide.out' has not changed.
-(rerunfilecheck)             Checksum: E913D391A6825E9541854637DE35F0CE;537.
+(rerunfilecheck)             Checksum: 00F0611E5A45F14512D8D4B0433B6BF7;537.
  ) 
 Here is how much of TeX's memory you used:
- 31985 strings out of 476683
- 670949 string characters out of 5807574
- 1890012 words of memory out of 5000000
- 51589 multiletter control sequences out of 15000+600000
- 536329 words of font info for 124 fonts, out of 8000000 for 9000
+ 31943 strings out of 476683
+ 670321 string characters out of 5807574
+ 1887012 words of memory out of 5000000
+ 51545 multiletter control sequences out of 15000+600000
+ 529443 words of font info for 104 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  128i,15n,122p,1002b,1247s stack positions out of 10000i,1000n,20000p,200000b,200000s
 

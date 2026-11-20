@@ -2,5 +2,5 @@
 \beamer@sectionintoc {2}{Data}{3}{0}{2}
 \beamer@sectionintoc {3}{Model}{6}{0}{3}
 \beamer@sectionintoc {4}{Results}{7}{0}{4}
-\beamer@sectionintoc {5}{Live Demo}{10}{0}{5}
-\beamer@sectionintoc {6}{Wrap-up}{11}{0}{6}
+\beamer@sectionintoc {5}{Wrap-up}{10}{0}{5}
+\beamer@sectionintoc {6}{Live Demo}{11}{0}{6}
